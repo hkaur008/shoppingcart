@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="shoppingcart.css" type="text/css">
+<!-- Your custom script here -->
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- MATERIAL ICON   -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<!-- google fonts   -->
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Marck+Script|Monoton&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<!-- logo bar   -->
+    <div class="center logo">Cakers &amp; Bakers
+<!--    drop down menu    -->
+          
+        <div><i class="material-icons spoon">
+restaurant_menu
+        </i></div>
+
+  <!-- Dropdown Structure -->
+
+        </div>
+    <div class="YO ">Total: <span id="total">0</span>  <a class="waves-effect waves-light btn modal-trigger right" href="#modal1"><i class="material-icons left" >room_service</i>BUY</a>
+
+</div>
+
+    
+  <!-- Modal Trigger -->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>YOUR BILL</h4>
+      <p>TOTAL:<span id="total1">0</span></p>
+        <div>
+            <div id="chips">
+            <div id="chip0"></div>
+            <div id="chip1"></div>
+            <div id="chip2"></div>
+            <div id="chip3"></div>
+            <div id="chip4"></div>
+            <div id="chip5"></div>
+            
+            </div>
+            
+        </div> 
+        <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+      </div>
+    </form>
+  </div>
+         
+        
+        
+        
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        
+    </div>
+  </div>
+    
+<!--top scroll  -->
+    <div class="topper"><div class="white-text yup">CakersS <BR/><div class="BAKERS" >&amp; Bakers </div></div></div>
+    <div class="image-gallery">
+        <div class="row center ">
+        <div class="col   center s12 m6 l4">
+            <div class="items center">
+                <img src="img1.jpg" class="imagecake">
+                 <div class="white-text red count" id="cake0">0</div>
+<!-- head,description,buttons -->
+                <div class="text">
+                   
+                <div class="text-head">Chocolate color</div>    <div class="description">
+                eat me... i contain blah blah blah .i m tasty !!!!
+                    </div>
+                    
+                <div class="but">
+                    <i class="material-icons buttons" onclick="counter(0)">
+add_shopping_cart
+</i><span class="cost white-text"> Cost : $4</span>
+                    <i class="material-icons buttons" onclick="remove(0)">
+delete
+</i></div> </div></div></div>
+            
+             <div class="col   center s12 m6 l4">
+            <div class="items center">
+                <img src="img2.jpg" class="imagecake">
+                <div class="white-text red count" id="cake1">0</div>
+<!-- head,description,buttons -->
+                <div class="text">
+                   
+                <div class="text-head">Chocolate color</div>    <div class="description">
+                eat me... i contain blah blah blah .i m tasty !!!!
+                    </div>
+                    
+                <div class="but">
+                    <i class="material-icons buttons" onclick="counter(1)">
+add_shopping_cart
+</i><span class="cost white-text"> Cost : $5</span>
+                    <i class="material-icons buttons" onclick="remove(1)">
+delete
+</i></div> </div>
+            </div></div>
+            
+            
+             <div class="col center s12 m6 l4">
+            <div class="items center">
+                <img src="img3.jpg" class="imagecake"> 
+            <div class="white-text red count" id="cake2">0</div>
+<!-- head,description,buttons -->
+                <div class="text">
+                   
+                <div class="text-head">Chocolate color</div>    <div class="description">
+                eat me... i contain blah blah blah .i m tasty !!!!
+                    </div>
+                    
+                <div class="but">
+                    <i class="material-icons buttons" onclick="counter(2)">
+add_shopping_cart
+</i><span class="cost white-text"> Cost : $6</span>
+                    <i class="material-icons buttons" onclick="remove(2)" >
+delete
+</i></div> </div></div></div>
+            
+             <div class="col   center s12 m6 l4">
+            <div class="items center">
+                <img src="img4.jpg" class="imagecake"> 
+                <div class="white-text red count" id="cake3">0</div>
+<!-- head,description,buttons -->
+                <div class="text">
+                   
+                <div class="text-head">Chocolate color</div>    <div class="description">
+                eat me... i contain blah blah blah .i m tasty !!!!
+                    </div>
+                    
+                <div class="but">
+                    <i class="material-icons buttons" onclick="counter(3)">
+add_shopping_cart
+</i><span class="cost white-text"> Cost : $7</span>
+                    <i class="material-icons buttons" onclick="remove(3)">
+delete
+</i></div> </div>
+            </div></div>
+            
+             <div class="col   center s12 m6 l4">
+            <div class="items center">
+                <img src="img5.jpg" class="imagecake"> 
+                <div class="white-text red count" id="cake4">0</div>
+<!-- head,description,buttons -->
+                <div class="text">
+                   
+                <div class="text-head">Chocolate color</div>    <div class="description">
+                eat me... i contain blah blah blah .i m tasty !!!!
+                    </div>
+                    
+                <div class="but">
+                    <i class="material-icons buttons" onclick="counter(4)">
+add_shopping_cart
+</i><span class="cost white-text"> Cost : $8</span>
+                    <i class="material-icons buttons" onclick="remove(4)">
+delete
+</i></div> </div>
+            </div></div>
+            
+             <div class="col center s12 m6 l4">
+            <div class="items center">
+                <img src="img%206.jpg" class="imagecake"> 
+                
+            <div class="white-text red count" id="cake5">0</div>
+<!-- head,description,buttons -->
+                <div class="text">
+                   
+                <div class="text-head">Chocolate color</div>    <div class="description">
+                eat me... i contain blah blah blah .i m tasty !!!!
+                    </div>
+                    
+                <div class="but">
+                    <i class="material-icons buttons" onclick="counter(5)">
+add_shopping_cart
+</i><span class="cost white-text"> Cost : $9</span>
+                    <i class="material-icons buttons" onclick="remove(5)">
+delete
+</i></div> </div></div></div>
+        </div>
+    </div>
+    
+    <script
+     src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        
+   <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+              
+<!--code for react js    -->
+<script  src="shoppingcart.js"> </script>
+  <script> $(document).ready(function(){
+    $('.modal').modal();
+  });
+          </script>
+</body>
+</html>

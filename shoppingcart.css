@@ -1,0 +1,140 @@
+.topper{
+width:100%;
+        height:70vh;
+    
+    background: url("shop.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-family: 'Monoton', cursive;
+    font-size:7vw;
+        position:relative;
+}
+.BAKERS{
+     font-size:5vw;
+    font-family:  'Marck ScripT', cursive;
+}
+.submit{
+   
+}
+
+.yup{
+    border-style: double;
+    border:2vw white;
+    border-style: double;
+    padding: 3vw;
+    
+    position: absolute;
+    top:10vh;left:10vw;
+}
+.spoon{position:absolute;
+
+top:0.7vh;
+background:#F48FB1;
+    border-radius:50%;
+    padding:2px;
+    color:floralwhite;
+    
+}
+.YO{position: relative;color: #E91E63; background-color: #F48FB1;
+font-size:5vh;
+font-family: 'Marck Script', cursive;
+padding:10px;
+padding-bottom:0px;     
+}
+.material-icons.spoon { font-size: 48px; left:5vw; 
+
+
+}
+.logo{
+    height:10vh;
+    color: #F48FB1;
+    font-size:5vh;
+    padding:2vh;
+    font-stretch: extra-expanded;
+background-color: #E91E63;
+    font-family: 'Marck Script', cursive;
+    
+}
+.imagecake{
+    height:30vh;
+    width:20vw;
+   margin-top: 5vh; 
+    border:white solid 5px; 
+}
+.items{
+    height:60vh;
+position: relative;
+    width:25vw;
+     background-color: aquamarine;
+    box-shadow: 0 15px 15px grey;
+    margin-bottom: 7vh;
+}
+.image-gallery{
+ margin-left: 7vw;
+    margin-top: 10vh;
+}
+.mnu
+{ height:40vh;
+width:40vw;}
+
+@media only screen and (max-width: 600px) {
+
+  .imagecake{
+    height:35vh;
+    width:60vw;
+   margin-top: 5vh; 
+    border:white solid 5px; 
+}
+.items{
+    height:65vh;
+position: relative;
+    width:65vw;
+     background-color: aquamarine;
+    box-shadow: 3px grey;
+    margin-bottom: 7vh;
+}  
+  
+}
+.text-head{
+    height:7vh;
+    color: #F48FB1;
+    font-size:5vh;
+    padding:1vh;
+    font-stretch: extra-expanded;
+background-color: #E91E63;
+    font-family: 'Marck Script', cursive;
+    
+}
+
+.description{
+    height:7vh;
+    color: #F48FB1;
+    font-size:3vh;
+    padding:1vh;
+    font-stretch: extra-expanded;
+
+    font-family: 'Marck Script', cursive;
+    
+}
+.but{position:relative;
+     top:2vh;
+}
+.material-icons.buttons { font-size: 30px;
+    background-color: black;
+    box-shadow: 2px 5px 10px grey;
+     padding:2px;
+    color:floralwhite;
+    margin-left:1vw;
+margin-right: 1vw;
+    }
+.cost{
+    font-family: fantasy;
+    font-size:5vh;
+}
+
+.count{
+    position:absolute;top:0px;
+    padding:12px;
+}
+
